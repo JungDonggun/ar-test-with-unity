@@ -1,6 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
 public class ARPlaceOnPlane : MonoBehaviour
@@ -9,6 +9,7 @@ public class ARPlaceOnPlane : MonoBehaviour
     public ARRaycastManager arRaycastManager;
     public GameObject placeObject;
     public GameObject spawnObject;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class ARPlaceOnPlane : MonoBehaviour
     void Update()
     {
         //UpdateCenterObject();
-        PlaceObjectByTouchable();
+        //PlaceObjectByTouchable();
     }
 
     private void PlaceObjectByTouchable()
