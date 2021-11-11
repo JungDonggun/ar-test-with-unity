@@ -5,11 +5,16 @@ using UnityEngine.XR.ARFoundation;
 
 public class ARPlaceOnPlane : MonoBehaviour
 {
-
     public ARRaycastManager arRaycastManager;
     public GameObject placeObject;
     public GameObject spawnObject;
-    
+    public string passedText;
+
+    //public void Awake()
+    //{
+    //    passedText = UIController.instance.selectedARCharacter;
+      //  Debug.Log("passedText" + passedText);
+    //}
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +26,7 @@ public class ARPlaceOnPlane : MonoBehaviour
     void Update()
     {
         //UpdateCenterObject();
-        //PlaceObjectByTouchable();
+        PlaceObjectByTouchable();
     }
 
     private void PlaceObjectByTouchable()

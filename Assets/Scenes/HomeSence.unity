@@ -259,7 +259,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "selected test is \n"
+  m_Text: '
+
+'
 --- !u!222 &673451479
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -385,6 +387,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSelectedSpanwer: {fileID: 673451478}
+  navigationButton: {fileID: 1637203917}
+  selectedARCharacter: 
 --- !u!1 &714704863
 GameObject:
   m_ObjectHideFlags: 0
